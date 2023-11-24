@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
-
 import React from "react";
+import TopBanner from "./components/TopBanner/TopBanner";
+import Services from "./components/Services/Services";
+
 function App() {
   return (
     <div>
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <TopBanner />
+      <Services />
     </div>
   );
 }
